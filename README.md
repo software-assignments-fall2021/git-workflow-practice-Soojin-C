@@ -8,3 +8,5 @@ The article is linked [here](https://arstechnica.com/information-technology/2021
  The article introduces a security flaw in Azure’s Active Directory. A new vulnerability in the one factor password system can be exploited. Researchers at Secure Counter threat Unit (CTU) found, confirmed and reported this flaw to Microsoft but the response was that this was intended and by design. The article goes into more detail about how Azure AD Seamless SSO service, while by design, can also cause security issues. The key is in the error codes, which aren’t logged properly, that are given when authentication fails. Because they are not properly logged, they are open to brute-force attacks. This highlights the importance of design and how even error codes can be exploited to create a vulnerability to a program. This was the result of a feature that had flaws by design and doesn’t have an easy design. 
 
 
+> Great Article! I found it interesting that error codes and error messages can create such a design flaw. 
+> - Ina Youn (iy372)
